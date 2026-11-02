@@ -1,134 +1,72 @@
-# 📘 Login-Registration – Full MERN Stack Application
+<div align="center">
 
+# 🔑 MERN Login & Registration
 
+User sign-up and login with a React frontend and an Express and MongoDB backend.
 
-## 🚀 Features
+<a href="https://github.com/miladmo68/Login-Registration"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
 
-- Create and view blog posts using markdown
-- Global state management using Context API
-- RESTful API with MongoDB models
-- Clean and responsive UI with TailwindCSS + daisyUI
-- Axios for API interaction
-- Modular structure for scalable development
-
----
-
-## 📁 Folder Structure
-
-```
-mern-blog-cms-full-final/
-├── front/           # Frontend (React + Vite)
-│   ├── src/
-│   │   ├── components/   # PostCard, PostForm
-│   │   ├── context/      # PostContext
-│   │   ├── pages/        # Home.jsx
-│   │   └── utils/        # api.js (Axios calls)
-├── back/            # Backend (Express + MongoDB)
-│   ├── models/      # Post.js
-│   └── routes/      # posts.js
-```
-
-
----
-
-## ⚙️ Prerequisites
-
-- Node.js (v18 or later)
-- MongoDB (Local or MongoDB Atlas)
-
----
-
-## 🧪 Backend Setup
-
-1. Navigate to the backend folder:
-```bash
-cd back
-```
-
-2. Copy the environment file and set your MongoDB URI:
-```bash
-cp .env.example .env
-```
-
-> Example `.env`:
-```
-MONGO_URI=mongodb://localhost:27017/blog_cms
-PORT=5000
-```
-
-3. Install dependencies and run the server:
-```bash
-npm install
-npm run dev
-```
-
-4. The API will start at: `http://localhost:5000/api/posts`
-
----
-
-## 🎨 Frontend Setup
-
-1. Navigate to the frontend folder:
-```bash
-cd front
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the frontend development server:
-```bash
-npm run dev
-```
-
-4. Open your browser at: `http://localhost:5173`
-
----
-
-## 🔧 Tech Stack
-
-### Frontend
-- React 18
-- Vite
-- TailwindCSS 3
-- daisyUI
-- React Markdown
-- Context API
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- dotenv
-- cors
-
----
-
-## 📌 Notes
-
-- Posts are stored in MongoDB using the `Post` model
-- All post data is managed globally through `PostContext`
-- Axios is used for all communication between frontend and backend
-- You can style and expand this project using Tailwind and daisyUI components
-
----
-
-## ✅ Sample API Routes
-
-| Method | Endpoint              | Description         |
-|--------|-----------------------|---------------------|
-| GET    | `/api/posts`          | Fetch all posts     |
-| POST   | `/api/posts`          | Create new post     |
-
----
+</div>
 
 <p align="center">
-  <b>👨‍💻 Author: Milad Mohammadi</b><br>
-  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
+  <img src="./.github/preview.jpg" alt="MERN Login & Registration screenshot" width="100%" />
 </p>
 
-Happy coding! 💻
+## ✨ Features
+
+- Sign up and log in
+- Express API with Mongoose models
+- React Router and Bootstrap UI
+
+## 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+> [!NOTE]
+> This project needs its own backend, database or API keys, so it runs locally rather than as a static demo.
+
+## 🚀 Getting Started
+
+**Prerequisites:** [Node.js](https://nodejs.org/) 18 or newer · A MongoDB database (local or MongoDB Atlas)
+
+**Clone**
+
+```bash
+git clone https://github.com/miladmo68/Login-Registration.git
+cd Login-Registration
+```
+
+**client**
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+**server**
+
+```bash
+cd server
+npm install
+npm start
+```
+
+## 📁 Project Structure
+
+```
+Login-Registration/
+├── client/
+└── server/
+```
+
+## 👤 Author
+
+**Milad Mohammadi** — Frontend-Focused Full-Stack Developer, Toronto 🇨🇦
+
+[![Website](https://img.shields.io/badge/Website-miladweb.com-FF6A00?style=flat-square&logo=googlechrome&logoColor=white)](https://miladweb.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-miladmo68-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miladmo68/)
+[![GitHub](https://img.shields.io/badge/GitHub-miladmo68-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/miladmo68)
+
+<p align="center"><sub>If you like this project, consider giving it a ⭐</sub></p>
